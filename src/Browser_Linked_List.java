@@ -63,5 +63,7 @@ public class Browser_Linked_List<Item> {
         frame.setSize(400, 400);
         frame.setLayout(null);
         frame.setVisible(true);
+
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
